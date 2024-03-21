@@ -12,7 +12,7 @@ To run the application, follow these steps:
 ### `npm install`
 This command installs the necessary dependencies required for running the project <br />
 ## 3) Start the project:
-### `npm start`
+### `cd frontend && npm start`
 ## 4) Start the server:
 ### `cd backend && npm start`
 
