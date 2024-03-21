@@ -5,7 +5,6 @@ import App from './App.js';
 import reportWebVitals from './reportWebVitals.js';
 import { BrowserRouter, Routes,  Route } from 'react-router-dom';
 
-import Model1 from './Model1.js';
 import Model2 from './Model2.js';
 import Model3 from './Model3.js';
 
@@ -14,9 +13,8 @@ root.render(
   <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/models/1/try" element={<Model1 />}  />
-        <Route path="/models/2/try" element={<Model2 />}  />
-        <Route path="/models/3/try" element={<Model3 />}  />
+        <Route path="/models/1/try" element={<Model2 />}  />
+        <Route path="/models/2/try" element={<Model3 />}  />
     </Routes>
     </BrowserRouter>
 
