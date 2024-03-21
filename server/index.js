@@ -3,7 +3,6 @@ import bodyParser from 'body-parser';
 import cors from 'cors';
 import { pipeline } from '@xenova/transformers';
 import * as toxicity from '@tensorflow-models/toxicity';
-import dotenv from 'dotenv';
 
 dotenv.config();
 const app = express();
