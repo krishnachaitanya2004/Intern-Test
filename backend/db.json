@@ -1,0 +1,20 @@
+{
+  "models": [
+      {
+          "id":1,
+          "name": "Toxicity Detector",
+          "description": "Toxicity Detector is a pre-trained model that can detect toxic comments in a conversation. It can be used to filter out toxic comments from a conversation."
+      },
+      {
+          "id":2,
+          "name": "Sentiment Analyser",
+          "description": "Sentiment Analysis is a pre-trained model that can detect the sentiment of a conversation. It can be used to detect the sentiment of a conversation.It is using @xenova/transformers library."
+      },
+      {
+          "id":3,
+          "name": "Text Summarizer",
+          "description": "Text Summarizer is a pre-trained model that can summarize a conversation. It can be used to summarize a conversation. It is using @xenova/transformers library."
+      }
+
+  ]
+}
